@@ -8,10 +8,9 @@
       <li data-ng-repeat="item in menus.main" ui-route="/{{item.link}}" ng-class="{active: $uiRoute}">
         <a mean-token="item.link" ui-sref='{{item.link}}'>{{item.title}}</a>
       </li>
-      <li>Pricing</li>
+      <li><a ui-sref='main.pricing'>Register</a></li>
     </ul>
   </div>
-
   <div class="account">
     <div class="text-edit">
       <div class="pull-right" data-ng-show="global.authenticated" mean-token-editable></div>
