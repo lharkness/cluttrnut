@@ -14,7 +14,7 @@ angular.module('mean.system').config(['$stateProvider', '$urlRouterProvider',
       })
       .state('main.pricing', {
         url: '/pricing',
-        templateUrl: 'system/views/pricing.html';
+        templateUrl: 'system/views/pricing.html'
     })
   }
 ]).config(['$locationProvider',
